@@ -9,12 +9,11 @@ var client = amazon.createClient({
 
 co(function *(){
 
-  results = yield client.itemSearch({
-    keywords: 'Pulp fiction',
-    searchIndex: 'DVD',
-    responseGroup: 'ItemAttributes,Offers,Images'
-  });
+  pulpFiction   = client.itemSearch({ keywords: 'Pulp fiction',   searchIndex: 'DVD'});
+  killBill      = client.itemSearch({ keywords: 'Kill Bill',      searchIndex: 'DVD'});
+  reservoirDogs = client.itemSearch({ keywords: 'Reservoir Dogs', searchIndex: 'DVD'});
 
-  console.log(results);
+  movies = yield [pulpFiction, killBill, reservoirDogs];
+  console.log(movies);
 
 })();

@@ -21,7 +21,9 @@
   "author": "Dmitry Mazuro <dmitry.mazuro@icloud.com>",
   "license": "BSD-2-Clause",
   "devDependencies": {
+    "co": "^3.0.5",
     "coffee-script": "^1.7.1",
+    "express": "^3.5.1",
     "gulp": "^3.6.0",
     "gulp-coffee": "^1.4.1",
     "mocha": "^1.18.2",
