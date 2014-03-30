@@ -1,0 +1,42 @@
+{
+  "name": "apac2",
+  "version": "0.0.1",
+  "description": "Amazon Product Advertising API client Stream",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib/"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "amazon",
+    "aws",
+    "product",
+    "ads",
+    "apac",
+    "stream",
+    "advertising"
+  ],
+  "author": "Dmitry Mazuro <dmitry.mazuro@icloud.com>",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "coffee-script": "^1.7.1",
+    "gulp": "^3.6.0",
+    "gulp-coffee": "^1.4.1",
+    "mocha": "^1.18.2",
+    "should": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/t3chnoboy/apac2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/t3chnoboy/apac2/issues"
+  },
+  "homepage": "https://github.com/t3chnoboy/apac2",
+  "dependencies": {
+    "es6-promise": "^0.1.1",
+    "request": "^2.34.0"
+  }
+}
