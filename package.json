@@ -1,7 +1,7 @@
 {
   "name": "apac2",
   "version": "0.0.1",
-  "description": "Amazon Product Advertising API client Stream",
+  "description": "next generation Amazon Product Advertising API client",
   "main": "./lib/index.js",
   "directories": {
     "lib": "./lib/"
