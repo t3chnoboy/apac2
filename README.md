@@ -1,5 +1,4 @@
-# Node.js client for the Amazon Product Advertising API [![NPM version](https://badge.fury.io/js/apac2.png)](http://badge.fury.io/js/apac2) [![Dependency Status](https://gemnasium.com/t3chnoboy/apac2.svg)](https://gemnasium.com/t3chnoboy/apac2)
-[![Build Status](https://travis-ci.org/t3chnoboy/apac2.svg)](https://travis-ci.org/t3chnoboy/apac2)
+# Node.js client for the Amazon Product Advertising API [![NPM version](https://badge.fury.io/js/apac2.svg)](http://badge.fury.io/js/apac2) [![Dependency Status](https://gemnasium.com/t3chnoboy/apac2.svg)](https://gemnasium.com/t3chnoboy/apac2) [![Build Status](https://travis-ci.org/t3chnoboy/apac2.svg)](https://travis-ci.org/t3chnoboy/apac2)
 
 Next generation Node.js client for [Amazon Product Advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html)  
 
@@ -13,6 +12,8 @@ The major differences between this project and other implementations are:
   3. Item search can return a [stream](http://nodejs.org/api/stream.html). (You can read about streams [here](https://github.com/substack/stream-handbook))  
 
 
+#NOTE. This module in development and not published to npm yet.
+#XML parsing is not implemented yet
 
 ## Installation
 Install using npm:
