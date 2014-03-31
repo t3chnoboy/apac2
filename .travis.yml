@@ -2,3 +2,8 @@ language: node_js
 node_js:
 - '0.11'
 - '0.10'
+env:
+  global:
+  - secure: UJb+4XULrn7+JJUJtmO4Lzn3CdxkwTBRkIL0wFqAFPeXrv/0VA2gf0YnZqHMlxpP/C6jcqRL/pmEfcVnmMs5Ts6MPF/U2LpqRNmJtE6+VtuCzv4f0oUuzfnJPgAopKcfJ3j/pRpXtwi+Hg1XvjEJYj0wPMBbYsTjwWLXov4FkmU=
+  - secure: f8szQOyEwwDs9AFD3OrlHgMlE8zl0pxyzX7byXO8M17lmz5q7mzEstPB/IfPDLqq9aZ60WMBufJZEgShl2neqT1symZK6ojvId09SP2SE2gqH+AHVvV+GRF/O7ZGLzqwsrcQV9J0zHVMd+IGODDRvHuW13fbR5R6Xlq3D5dl+r0=
+  - secure: cZpqBf5MlcVpRVh9yWfCTK00rAWJpYa1hrWZ1ohCTFL0zrOUqFlFd/6ylhy0yRFr3AIw31qmMxu58l056gHd/OjGHpjSz3Ye/PKPZ58kgIqaIyMg5teDibJc13Eyatmp2to7hT2NaR1V9crqX+lxf9qZ12ImU3JkeL9Wa3lp+Xc=
