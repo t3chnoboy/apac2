@@ -1,5 +1,5 @@
 # Node.js client for the Amazon Product Advertising API [![NPM version](https://badge.fury.io/js/apac2.png)](http://badge.fury.io/js/apac2) [![Dependency Status](https://gemnasium.com/t3chnoboy/apac2.svg)](https://gemnasium.com/t3chnoboy/apac2)
-[![Build Status](https://travis-ci.org/t3chnoboy/apac2.png?branch=master)](https://travis-ci.org/t3chnoboy/apac2)
+[![Build Status](https://travis-ci.org/t3chnoboy/apac2.svg)](https://travis-ci.org/t3chnoboy/apac2)
 
 Next generation Node.js client for [Amazon Product Advertising API](https://affiliate-program.amazon.com/gp/advertising/api/detail/main.html)  
 
